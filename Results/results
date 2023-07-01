@@ -1,0 +1,27 @@
+Traditional Algorithtms - 
+
+RandomForestClassifier - Best Accuracy: 0.8041, Best Parameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+LogisticRegression - Best Accuracy: 0.8197, Best Parameters: {'C': 0.1, 'penalty': 'l2'}
+SVC - Best Accuracy: 0.8176, Best Parameters: {'C': 10, 'kernel': 'linear'}
+KNeighborsClassifier - Best Accuracy: 0.7757, Best Parameters: {'n_neighbors': 7, 'weights': 'uniform'}
+DecisionTreeClassifier - Best Accuracy: 0.7715, Best Parameters: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}
+
+Artificial Neural Net - 
+Keras Neural Network - Best Accuracy: 0.8013, Best Parameters: {'optimizer': 'adam', 'neurons': 32, 'activation': 'relu'}
+
+XGBoost - 
+Best Hyperparameters: {'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.9}
+XGBoost Accuracy: 0.8076650106458482
+XGBoost Precision: 0.6746575342465754
+XGBoost Recall: 0.5281501340482574
+XGBoost F1-score: 0.5924812030075188
+
+AdaBoost - 
+Mean Accuracy: 0.7990764395958398
+Standard Deviation: 0.009413066146149682
+
+LightGBM - 
+LightGBM Accuracy: 0.8126330731014905
+LightGBM Precision: 0.6822742474916388
+LightGBM Recall: 0.546916890080429
+LightGBM F1-score: 0.6071428571428572
