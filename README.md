@@ -21,6 +21,10 @@ Model Comparison: By comparing the performance of different models (e.g., Random
 These are just some general observations based on the provided dataset information. For a more detailed analysis, it would be beneficial to explore the dataset further, perform EDA, and assess the significance of different features in predicting customer churn.
 
 # Conclusion 
+
+![Screenshot 2023-07-01 122416](https://github.com/wittyicon29/Churn-Prediction/assets/99320225/b8d992f2-a93f-4b23-8013-8b09f1a96f0f)
+
+
 RandomForestClassifier achieved the best accuracy of 0.8041 with the following hyperparameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}.
 
 LogisticRegression achieved a slightly higher accuracy of 0.8197 with the hyperparameters {'C': 0.1, 'penalty': 'l2'}.
