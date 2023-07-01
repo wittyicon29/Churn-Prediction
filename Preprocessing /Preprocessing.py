@@ -25,3 +25,8 @@ df[cat_cols] = df[cat_cols].apply(lambda x: le.fit_transform(x))
 num_cols = ['tenure', 'MonthlyCharges', 'TotalCharges']
 scaler = StandardScaler()
 df[num_cols] = scaler.fit_transform(df[num_cols])
+
+# Split the dataset into training and testing sets
+X = df.drop('Churn', axis=1)
+y = df['Churn']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
